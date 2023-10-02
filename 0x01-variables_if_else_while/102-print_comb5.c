@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints all possible combinations of two two-digit numbers
- * Rreturn: 0 (success)
+ * Return: 0 (success)
  */
 int main(void)
 {
@@ -18,7 +18,7 @@ int main(void)
 				putchar((dig1 % 10) + 48);
 				putchar(' ');
 				putchar((dig2 / 10) + 48);
-				putchar((dig1 % 10) + 48);
+				putchar((dig2 % 10) + 48);
 
 				if (dig1 != 98 || dig2 != 99)
 				{
